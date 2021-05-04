@@ -2,11 +2,17 @@
 
 namespace Database\Factories;
 
+<<<<<<< HEAD
 use App\Models\Team;
 use App\Models\User;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Str;
 use Laravel\Jetstream\Features;
+=======
+use App\Models\User;
+use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Str;
+>>>>>>> 39a02aa47d9e35d4cb551ef14ff3e3ebfab7b54b
 
 class UserFactory extends Factory
 {
@@ -25,8 +31,13 @@ class UserFactory extends Factory
     public function definition()
     {
         return [
+<<<<<<< HEAD
             'name' => $this->faker->name,
             'email' => $this->faker->unique()->safeEmail,
+=======
+            'name' => $this->faker->name(),
+            'email' => $this->faker->unique()->safeEmail(),
+>>>>>>> 39a02aa47d9e35d4cb551ef14ff3e3ebfab7b54b
             'email_verified_at' => now(),
             'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
             'remember_token' => Str::random(10),
@@ -46,6 +57,7 @@ class UserFactory extends Factory
             ];
         });
     }
+<<<<<<< HEAD
 
     /**
      * Indicate that the user should have a personal team.
@@ -66,4 +78,6 @@ class UserFactory extends Factory
             'ownedTeams'
         );
     }
+=======
+>>>>>>> 39a02aa47d9e35d4cb551ef14ff3e3ebfab7b54b
 }

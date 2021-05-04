@@ -4,7 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "content-hash": "964ae17773d16efa65afab114e9eb599",
+=======
+    "content-hash": "3300b17ba968e2fdb4f6beea2ee12cfa",
+>>>>>>> 39a02aa47d9e35d4cb551ef14ff3e3ebfab7b54b
     "packages": [
         {
             "name": "arrilot/laravel-widgets",
@@ -129,6 +133,7 @@
             "time": "2021-03-11T06:42:03+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "bacon/bacon-qr-code",
             "version": "2.0.3",
             "source": {
@@ -182,6 +187,8 @@
             "time": "2020-10-30T02:02:47+00:00"
         },
         {
+=======
+>>>>>>> 39a02aa47d9e35d4cb551ef14ff3e3ebfab7b54b
             "name": "brick/math",
             "version": "0.9.2",
             "source": {
@@ -705,6 +712,7 @@
             "time": "2021-03-25T17:01:18+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "dasprid/enum",
             "version": "1.0.3",
             "source": {
@@ -752,6 +760,8 @@
             "time": "2020-10-02T16:03:48+00:00"
         },
         {
+=======
+>>>>>>> 39a02aa47d9e35d4cb551ef14ff3e3ebfab7b54b
             "name": "doctrine/cache",
             "version": "1.11.0",
             "source": {
@@ -1907,6 +1917,7 @@
             "time": "2019-11-02T09:15:47+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "jaybizzle/crawler-detect",
             "version": "v1.2.105",
             "source": {
@@ -2042,6 +2053,8 @@
             "time": "2020-06-13T08:05:20+00:00"
         },
         {
+=======
+>>>>>>> 39a02aa47d9e35d4cb551ef14ff3e3ebfab7b54b
             "name": "justinrainbow/json-schema",
             "version": "5.2.10",
             "source": {
@@ -2273,6 +2286,7 @@
             "time": "2020-03-04T21:35:18+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "laravel/fortify",
             "version": "v1.7.12",
             "source": {
@@ -2336,6 +2350,8 @@
             "time": "2021-04-27T17:56:34+00:00"
         },
         {
+=======
+>>>>>>> 39a02aa47d9e35d4cb551ef14ff3e3ebfab7b54b
             "name": "laravel/framework",
             "version": "v8.40.0",
             "source": {
@@ -2504,6 +2520,7 @@
             "time": "2021-04-28T14:38:56+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "laravel/jetstream",
             "version": "v2.3.4",
             "source": {
@@ -2531,6 +2548,35 @@
                 "mockery/mockery": "^1.0",
                 "orchestra/testbench": "^6.0",
                 "phpunit/phpunit": "^9.3"
+=======
+            "name": "laravel/tinker",
+            "version": "v2.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/tinker.git",
+                "reference": "04ad32c1a3328081097a181875733fa51f402083"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/tinker/zipball/04ad32c1a3328081097a181875733fa51f402083",
+                "reference": "04ad32c1a3328081097a181875733fa51f402083",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "^6.0|^7.0|^8.0",
+                "illuminate/contracts": "^6.0|^7.0|^8.0",
+                "illuminate/support": "^6.0|^7.0|^8.0",
+                "php": "^7.2.5|^8.0",
+                "psy/psysh": "^0.10.4",
+                "symfony/var-dumper": "^4.3.4|^5.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "~1.3.3|^1.4.2",
+                "phpunit/phpunit": "^8.5.8|^9.3.3"
+            },
+            "suggest": {
+                "illuminate/database": "The Illuminate Database package (^6.0|^7.0|^8.0)."
+>>>>>>> 39a02aa47d9e35d4cb551ef14ff3e3ebfab7b54b
             },
             "type": "library",
             "extra": {
@@ -2539,13 +2585,21 @@
                 },
                 "laravel": {
                     "providers": [
+<<<<<<< HEAD
                         "Laravel\\Jetstream\\JetstreamServiceProvider"
+=======
+                        "Laravel\\Tinker\\TinkerServiceProvider"
+>>>>>>> 39a02aa47d9e35d4cb551ef14ff3e3ebfab7b54b
                     ]
                 }
             },
             "autoload": {
                 "psr-4": {
+<<<<<<< HEAD
                     "Laravel\\Jetstream\\": "src/"
+=======
+                    "Laravel\\Tinker\\": "src/"
+>>>>>>> 39a02aa47d9e35d4cb551ef14ff3e3ebfab7b54b
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2558,6 +2612,7 @@
                     "email": "taylor@laravel.com"
                 }
             ],
+<<<<<<< HEAD
             "description": "Tailwind scaffolding for the Laravel framework.",
             "keywords": [
                 "auth",
@@ -2595,21 +2650,68 @@
                 "mockery/mockery": "^1.0",
                 "orchestra/testbench": "^4.0|^5.0|^6.0",
                 "phpunit/phpunit": "^8.0|^9.3"
+=======
+            "description": "Powerful REPL for the Laravel framework.",
+            "keywords": [
+                "REPL",
+                "Tinker",
+                "laravel",
+                "psysh"
+            ],
+            "support": {
+                "issues": "https://github.com/laravel/tinker/issues",
+                "source": "https://github.com/laravel/tinker/tree/v2.6.1"
+            },
+            "time": "2021-03-02T16:53:12+00:00"
+        },
+        {
+            "name": "laravel/ui",
+            "version": "v3.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/ui.git",
+                "reference": "e2478cd0342a92ec1c8c77422553bda8ee004fd0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/ui/zipball/e2478cd0342a92ec1c8c77422553bda8ee004fd0",
+                "reference": "e2478cd0342a92ec1c8c77422553bda8ee004fd0",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "^8.0",
+                "illuminate/filesystem": "^8.0",
+                "illuminate/support": "^8.0",
+                "php": "^7.3|^8.0"
+>>>>>>> 39a02aa47d9e35d4cb551ef14ff3e3ebfab7b54b
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-master": "2.x-dev"
                 },
                 "laravel": {
                     "providers": [
                         "Laravel\\Sanctum\\SanctumServiceProvider"
+=======
+                    "dev-master": "3.x-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Laravel\\Ui\\UiServiceProvider"
+>>>>>>> 39a02aa47d9e35d4cb551ef14ff3e3ebfab7b54b
                     ]
                 }
             },
             "autoload": {
                 "psr-4": {
+<<<<<<< HEAD
                     "Laravel\\Sanctum\\": "src/"
+=======
+                    "Laravel\\Ui\\": "src/",
+                    "Illuminate\\Foundation\\Auth\\": "auth-backend/"
+>>>>>>> 39a02aa47d9e35d4cb551ef14ff3e3ebfab7b54b
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2622,6 +2724,7 @@
                     "email": "taylor@laravel.com"
                 }
             ],
+<<<<<<< HEAD
             "description": "Laravel Sanctum provides a featherweight authentication system for SPAs and simple APIs.",
             "keywords": [
                 "auth",
@@ -2831,6 +2934,21 @@
         {
             "name": "league/commonmark",
             "version": "1.6.0",
+=======
+            "description": "Laravel UI utilities and presets.",
+            "keywords": [
+                "laravel",
+                "ui"
+            ],
+            "support": {
+                "source": "https://github.com/laravel/ui/tree/v3.2.1"
+            },
+            "time": "2021-04-27T18:17:41+00:00"
+        },
+        {
+            "name": "league/commonmark",
+            "version": "1.6.0",
+>>>>>>> 39a02aa47d9e35d4cb551ef14ff3e3ebfab7b54b
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
@@ -3081,6 +3199,7 @@
             "time": "2021-01-18T20:58:21+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "league/oauth1-client",
             "version": "v1.9.0",
             "source": {
@@ -3290,6 +3409,8 @@
             "time": "2021-02-19T21:22:57+00:00"
         },
         {
+=======
+>>>>>>> 39a02aa47d9e35d4cb551ef14ff3e3ebfab7b54b
             "name": "monolog/monolog",
             "version": "2.2.0",
             "source": {
@@ -3600,6 +3721,7 @@
             "time": "2021-04-09T13:42:10+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "paragonie/constant_time_encoding",
             "version": "v2.4.0",
             "source": {
@@ -3667,6 +3789,8 @@
             "time": "2020-12-06T15:14:20+00:00"
         },
         {
+=======
+>>>>>>> 39a02aa47d9e35d4cb551ef14ff3e3ebfab7b54b
             "name": "phpoption/phpoption",
             "version": "1.7.5",
             "source": {
@@ -3736,6 +3860,7 @@
             "time": "2020-07-20T17:29:33+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "pragmarx/google2fa",
             "version": "8.0.0",
             "source": {
@@ -3788,6 +3913,8 @@
             "time": "2020-04-05T10:47:18+00:00"
         },
         {
+=======
+>>>>>>> 39a02aa47d9e35d4cb551ef14ff3e3ebfab7b54b
             "name": "psr/container",
             "version": "1.1.1",
             "source": {
@@ -3992,6 +4119,7 @@
         },
         {
             "name": "psr/log",
+<<<<<<< HEAD
             "version": "1.1.4",
             "source": {
                 "type": "git",
@@ -4002,6 +4130,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/php-fig/log/zipball/d49695b909c3b7628b6289db5479a1c204601f11",
                 "reference": "d49695b909c3b7628b6289db5479a1c204601f11",
+=======
+            "version": "1.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "0f73288fd15629204f9d42b7055f72dacbe811fc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/0f73288fd15629204f9d42b7055f72dacbe811fc",
+                "reference": "0f73288fd15629204f9d42b7055f72dacbe811fc",
+>>>>>>> 39a02aa47d9e35d4cb551ef14ff3e3ebfab7b54b
                 "shasum": ""
             },
             "require": {
@@ -4025,7 +4165,11 @@
             "authors": [
                 {
                     "name": "PHP-FIG",
+<<<<<<< HEAD
                     "homepage": "https://www.php-fig.org/"
+=======
+                    "homepage": "http://www.php-fig.org/"
+>>>>>>> 39a02aa47d9e35d4cb551ef14ff3e3ebfab7b54b
                 }
             ],
             "description": "Common interface for logging libraries",
@@ -4036,9 +4180,15 @@
                 "psr-3"
             ],
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/php-fig/log/tree/1.1.4"
             },
             "time": "2021-05-03T11:20:27+00:00"
+=======
+                "source": "https://github.com/php-fig/log/tree/1.1.3"
+            },
+            "time": "2020-03-23T09:12:05+00:00"
+>>>>>>> 39a02aa47d9e35d4cb551ef14ff3e3ebfab7b54b
         },
         {
             "name": "psr/simple-cache",

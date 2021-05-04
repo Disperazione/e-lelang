@@ -11,6 +11,7 @@
         "php": "^7.3|^8.0",
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",
+<<<<<<< HEAD
         "guzzlehttp/guzzle": "^7.3",
         "laravel/fortify": "^1.7",
         "laravel/framework": "^8.12",
@@ -19,6 +20,11 @@
         "laravel/socialite": "^5.2",
         "laravel/tinker": "^2.5",
         "livewire/livewire": "^2.0",
+=======
+        "guzzlehttp/guzzle": "^7.0.1",
+        "laravel/framework": "^8.12",
+        "laravel/tinker": "^2.5",
+>>>>>>> 39a02aa47d9e35d4cb551ef14ff3e3ebfab7b54b
         "tcg/voyager": "^1.4"
     },
     "require-dev": {
